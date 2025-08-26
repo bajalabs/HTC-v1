@@ -1,0 +1,34 @@
+{
+  "version": "2.0",
+  "build_date": "2025-08-25T01:43:53.005134",
+  "hs_version": "2022",
+  "database_type": "comprehensive",
+  "core_classification": {
+    "sections": 21,
+    "chapters": 52,
+    "headings": 58,
+    "subheadings": 0
+  },
+  "enhanced_data": {
+    "products": 2,
+    "notes": 2,
+    "search_records": 135
+  },
+  "quality_metrics": {
+    "data_quality_score": 0.8571428571428572,
+    "validation_errors": 0,
+    "validation_warnings": 1,
+    "overall_status": "passed_with_warnings"
+  },
+  "build_info": {
+    "duration": "0:00:00.105987",
+    "backup_created": true,
+    "features": [
+      "full_text_search",
+      "product_management",
+      "classification_notes",
+      "validation_engine",
+      "csv_export"
+    ]
+  }
+}

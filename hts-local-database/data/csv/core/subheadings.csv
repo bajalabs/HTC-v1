@@ -1,0 +1,3 @@
+subheading_id,heading_id,subheading_code,title_en,title_short,description,unit_of_quantity,is_leaf_node,is_residual,ai_generated,confidence_score,source_reference,created_at,updated_at,revision_year,effective_date,status,statistical_suffix,measurement_unit,supplementary_unit,conversion_factor
+1,13,020700,Fresh Whole Chicken (auto-generated),,Auto-generated subheading for product classification,,1,0,1,1.0,,2025-08-25 08:43:52,2025-08-25 08:43:52,2022,,active,,,,
+2,33,040900,Raw Honey (auto-generated),,Auto-generated subheading for product classification,,1,0,1,1.0,,2025-08-25 08:43:52,2025-08-25 08:43:52,2022,,active,,,,

@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  "build_date": "2025-08-25T01:28:58.610250",
+  "hs_version": "2022",
+  "statistics": {
+    "sections": 21,
+    "chapters": 52,
+    "headings": 0,
+    "subheadings": 0
+  },
+  "build_info": {
+    "duration": "0:00:00.057491",
+    "validation_issues": 0,
+    "backup_created": false,
+    "phases_completed": [
+      "sections",
+      "chapters"
+    ]
+  }
+}

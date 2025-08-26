@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-08-25T14:45:59.744532",
+  "overall_status": "passed_with_warnings",
+  "summary": {
+    "total_errors": 0,
+    "total_warnings": 1,
+    "total_checks": 7,
+    "data_quality_score": 0.8571428571428572
+  },
+  "table_results": {
+    "sections": {
+      "table_name": "sections",
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 1,
+      "record_count": 21,
+      "issues": []
+    },
+    "chapters": {
+      "table_name": "chapters",
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 2,
+      "record_count": 96,
+      "issues": []
+    },
+    "headings": {
+      "table_name": "headings",
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 1,
+      "record_count": 965,
+      "issues": []
+    },
+    "subheadings": {
+      "table_name": "subheadings",
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 1,
+      "record_count": 5838,
+      "issues": []
+    },
+    "products": {
+      "table_name": "products",
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 2,
+      "record_count": 2,
+      "issues": []
+    },
+    "relationships": {
+      "error_count": 0,
+      "warning_count": 0,
+      "check_count": 5,
+      "issues": []
+    },
+    "business_rules": {
+      "error_count": 0,
+      "warning_count": 1,
+      "check_count": 3,
+      "issues": [
+        {
+          "rule_name": "missing_scientific_names",
+          "severity": "warning",
+          "table_name": "products",
+          "record_id": null,
+          "column_name": "scientific_name",
+          "current_value": null,
+          "error_message": "1 natural products are missing scientific names"
+        }
+      ]
+    }
+  },
+  "detailed_issues": []
+}

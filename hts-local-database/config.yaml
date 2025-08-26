@@ -1,0 +1,37 @@
+database:
+  path: "database/hts.db"
+  backup_dir: "database/backups"
+  enable_fts: true
+
+ai_extraction:
+  cache_responses: true
+  cache_dir: "data/cache"
+  retry_attempts: 3
+  confidence_threshold: 0.95
+  
+  # Batch sizes for extraction
+  batch_sizes:
+    sections: 21      # Get all at once
+    chapters: 10      # Process 10 at a time
+    headings: 20      # Process 20 at a time
+    subheadings: 50   # Process 50 at a time
+
+validation:
+  strict_mode: true
+  required_confidence: 0.90
+  check_relationships: true
+  check_formats: true
+
+export:
+  csv:
+    encoding: "utf-8"
+    include_metadata: true
+  
+  sqlite:
+    vacuum_on_complete: true
+    analyze_on_complete: true
+
+progress:
+  show_progress_bars: true
+  save_checkpoints: true
+  checkpoint_interval: 100
